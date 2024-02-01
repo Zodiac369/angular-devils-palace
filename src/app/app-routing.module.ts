@@ -31,7 +31,7 @@ const routes: Routes = [
     path: 'media', component: MediaComponent
   },
   {
-    path: 'settings', component: SettingsComponent
+    path: 'contact', component: SettingsComponent
   }
 ];
 

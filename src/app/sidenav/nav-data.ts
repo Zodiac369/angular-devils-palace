@@ -8,7 +8,7 @@ export const navbarData = [
     },
     {
         routerLink: 'films',
-        icon: 'fal fa-box-open',
+        icon: 'fal fa-film',
         label: 'Films'
     },
     {
@@ -23,17 +23,17 @@ export const navbarData = [
     },
     {
         routerLink: 'profil',
-        icon: 'fal fa-file',
+        icon: 'fal fa-user',
         label: 'Profil'
     },
     {
         routerLink: 'media',
-        icon: 'fal fa-camera',
+        icon: 'fal fa-link',
         label: 'Social'
     },
     {
-        routerLink: 'settings',
-        icon: 'fal fa-cog',
-        label: 'Paramètres'
+        routerLink: 'contact',
+        icon: 'fal fa-envelope',
+        label: 'Contact'
     }
 ];
