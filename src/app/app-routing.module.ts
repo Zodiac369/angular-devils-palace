@@ -1,37 +1,37 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DashboardComponent } from './dashboard/dashboard.component';
+import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
-import { StatisticsComponent } from './statistics/statistics.component';
-import { CoupensComponent } from './coupens/coupens.component';
-import { PagesComponent } from './pages/pages.component';
-import { MediaComponent } from './media/media.component';
-import { SettingsComponent } from './settings/settings.component';
+import { TopComponent } from './top/top.component';
+import { GenresComponent } from './genres/genres.component';
+import { ProfilComponent } from './profil/profil.component';
+import { SocialComponent } from './social/social.component';
+import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   {
-    path: '', redirectTo:'dashboard', pathMatch:'full'
+    path: '', redirectTo:'home', pathMatch:'full'
   },
   {
-    path: 'home', component: DashboardComponent
+    path: 'home', component: HomeComponent
   },
   {
     path: 'films', component: ProductsComponent
   },
   {
-    path: 'top', component: StatisticsComponent
+    path: 'top', component: TopComponent
   },
   {
-    path: 'genres', component: CoupensComponent
+    path: 'genres', component: GenresComponent
   },
   {
-    path: 'profil', component: PagesComponent
+    path: 'profil', component: ProfilComponent
   },
   {
-    path: 'media', component: MediaComponent
+    path: 'social', component: SocialComponent
   },
   {
-    path: 'contact', component: SettingsComponent
+    path: 'contact', component: ContactComponent
   }
 ];
 

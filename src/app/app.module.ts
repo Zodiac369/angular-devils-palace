@@ -6,13 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BodyComponent } from './body/body.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
+import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
-import { StatisticsComponent } from './statistics/statistics.component';
-import { CoupensComponent } from './coupens/coupens.component';
-import { PagesComponent } from './pages/pages.component';
-import { MediaComponent } from './media/media.component';
-import { SettingsComponent } from './settings/settings.component';
+import { TopComponent } from './top/top.component';
+import { GenresComponent } from './genres/genres.component';
+import { ProfilComponent } from './profil/profil.component';
+import { SocialComponent } from './social/social.component';
+import { ContactComponent } from './contact/contact.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
@@ -20,13 +20,13 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     AppComponent,
     BodyComponent,
     SidenavComponent,
-    DashboardComponent,
+    HomeComponent,
     ProductsComponent,
-    StatisticsComponent,
-    CoupensComponent,
-    PagesComponent,
-    MediaComponent,
-    SettingsComponent
+    TopComponent,
+    GenresComponent,
+    ProfilComponent,
+    SocialComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

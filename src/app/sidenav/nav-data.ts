@@ -27,7 +27,7 @@ export const navbarData = [
         label: 'Profil'
     },
     {
-        routerLink: 'media',
+        routerLink: 'social',
         icon: 'fal fa-link',
         label: 'Social'
     },
